@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+ <!--   <test verbose="2" preserve-order="true" name="C:/Users/i/Desktop/Automation Session/Session4Task">-->
+
+     <!--   <classes>
+        <class name = "LoginClass">
+                <methods>
+                    <include name = "VerifySuccessfulRegisterationWithValidData"/>
+                    <include name = "VerifySuccessfulLginWithValidData"/>
+                </methods>
+        </class>
+
+        </classes>-->
+    <test name ="LoginTest">
+        <parameter name="username" value="esraa5321@gmail.com"/>
+        <parameter name="password" value="esraa123"/>
+        <classes>
+            <class name="LoginParameter"/>
+        </classes>
+
+
+    </test>
+</suite>
